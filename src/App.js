@@ -4,6 +4,7 @@ import {BrowserRouter as Router, Route} from 'react-router-dom'
 import Navbar from './components/Navbar.js'
 import Home from './content/Home.js'
 import About from './content/About.js'
+import Education from './content/Education.js'
 function App() {
 
     return(
@@ -16,7 +17,7 @@ function App() {
                 <Route exact path='/about'>
                     <About />
                 </Route>
-                <Route exact path='/about'>
+                <Route exact path='/education'>
                     <Education />
                 </Route>
           </div>

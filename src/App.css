@@ -102,3 +102,14 @@ h3{
 p {
     font-size:20px;
 }
+
+.wildcard {
+    margin:20px 0px 20px 0px;
+    padding: 20px 20px 20px 20px;
+    border:2px solid gray;
+
+}
+
+.wildcard:hover{
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.27);
+}
