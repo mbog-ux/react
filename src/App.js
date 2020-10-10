@@ -5,6 +5,8 @@ import Navbar from './components/Navbar.js'
 import Home from './content/Home.js'
 import About from './content/About.js'
 import Education from './content/Education.js'
+import Skills from './content/Skills'
+import Contact from './content/Contact'
 function App() {
 
     return(
@@ -19,6 +21,12 @@ function App() {
                 </Route>
                 <Route exact path='/education'>
                     <Education />
+                </Route>
+                <Route exact path='/skills'>
+                    <Skills />
+                </Route>
+                <Route exact path='/contact'>
+                    <Contact />
                 </Route>
           </div>
         </Router>

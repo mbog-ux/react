@@ -37,6 +37,11 @@ nav ul li{
   margin:50px;
 }
 
+nav ul li{
+  margin:50px;
+}
+
+
 .active {
   font-weight:bold;
   font-size: 2.5rem;
@@ -112,4 +117,23 @@ p {
 
 .wildcard:hover{
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.27);
+}
+
+.skills ul {
+    font-size: 20px;
+    text-decoration: none;
+    list-style: none;
+    margin:20px;
+
+}
+
+.skills li{
+    margin:2rem;
+    padding:20px;
+    text-align: center;
+}
+
+.skills li:hover{
+    border: 2px solid gray;
+    border-radius: 20rem;
 }
